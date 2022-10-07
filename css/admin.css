@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+.tbl-full{
+    width: 100%;
+}
+
+.tbl-30{
+    width: 30%;
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td{
+    padding: 1%;
+}
+
+.btn-primary{
+    background-color: #F5225C;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.btn-primary:hover{
+    background-color: #c0214b;
+}
+
+.btn-secondary{
+    background-color: #16F5B2;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.btn-secondary:hover{
+    background-color: #26dfa7;
+}
+
+.btn-danger{
+    background-color: #f53b16;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.btn-danger:hover{
+    background-color: #f53b16;
+}
+
+.success{
+    color: green;
+}
+
+.error{
+    color: darkred;
+}
+
+.btn-search{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    background-color: #F5225C;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.btn-search:hover{
+    background-color: #c0214b;
+}
+
+/* CSS FOR MENU */
+.menu{
+    padding: 0.5%;
+    background-color: #5d5a5e;
+    height: 100px;
+}
+.menu ul{
+    list-style-type: none;
+    text-align: center;
+}
+.menu ul li{
+    display: inline;
+    padding: 1.5%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #F5225C;
+    margin-bottom: 100px;
+
+}
+.menu ul li a:hover{
+    color: #c0214b;
+}
+
+
+.img-logo{
+    width: 8%;
+    margin-bottom: 10px;
+}
+
+.img-actu{
+    width: 100%;
+}
+
+.img-responsive{
+    width: 400px;
+    height: 410px;
+}
+
+.img-curve{
+  border-radius: 10px;
+}
+
+/* CSS RECHERCHE DE JEUX */
+.game-search{
+    background-color: #5d5a5e;
+    padding: 1%;
+    text-align: center;
+}
+
+.game-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+}
+
+/* CSS FOR MAIN CONTENT */
+.main-content{
+    background-color: rgb(233, 228, 228);
+    padding: 3% 0;
+}
+
+.Categories{
+    text-align: center;
+    color: #131418;
+    font-size: 2rem;
+    margin-bottom: 3%;
+}
+
+.main-content{
+    padding: 4% 0;
+}
+
+.box-3{
+    width:  44%;
+    float: left;
+    margin: 3%;
+    text-align: center;
+    list-style-type: none;
+    font-weight: bold;
+}
+
+.box-3 li a{
+    color: #131418;
+    text-decoration: none;
+}
+
+.box-3 li a:hover{
+    color: #c0214b;
+}
+
+/* CSS FOR ACTU MENU */
+.actu-menu{
+    background-color: rgba(217, 214, 214, 0.968);
+    padding: 4% 0;
+}
+
+.actu-menu-box{
+    width: 44%;
+    margin: 1%;
+    float: left;
+    padding: 2%;
+    background-color: rgba(235, 233, 233, 0.968);
+    border-radius: 15px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.actu-menu-img{
+    width: 20%;
+    float: left;
+}
+
+.actu-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.game-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+
+.game-detail{
+    font-size: 0.9rem;
+    color: #716f6f;
+}
+
+/* CSS FOR JEUX MENU */
+
+.jeux-menu{
+    background-color: rgba(217, 214, 214, 0.968);
+    padding: 4% 0;
+}
+
+.jeux-menu-box{
+    width: 44%;
+    margin: 1%;
+    float: left;
+    padding: 2%;
+    background-color: rgba(235, 233, 233, 0.968);
+    border-radius: 15px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.jeux-menu-img{
+    width: 20%;
+    float: left;
+}
+
+.jeux-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.game-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+
+.game-detail{
+    font-size: 0.9rem;
+    color: #716f6f;
+}
+
+/* CSS FOR FOOTER */
+.footer{
+    background-color: #5d5a5e;
+    color: white;
+    text-align: center;
+}
+
+/* CSS FOR SOCIAL */
+
+.social{
+    background-color: #5d5a5e;
+}
+
+.social ul li{
+    display: inline;
+    padding: 2%;
+}
+
+.social ul li a{
+    color: white;
+    text-decoration: none;
+}
