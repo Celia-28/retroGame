@@ -68,9 +68,9 @@
                                         <td><?php echo $full_name; ?></td>
                                         <td><?php echo $username; ?></td>
                                         <td>
-                                            <a href="<?php echo SITEURL; ?>admin/update-password.php?id=<?php echo $id; ?>" class="btn-primary">Changer le mot de passe</a>
-                                            <a href="<?php echo SITEURL; ?>admin/update-admin.php?id=<?php echo $id; ?>" class="btn-secondary">Modifier Admin</a>
-                                            <a href="<?php echo SITEURL; ?>admin/delete-admin.php?id=<?php echo $id; ?>" class="btn-danger">Supprimer Admin</a>
+                                            <a href="<?php echo SITEURL; ?>../retroG/retroGame/admin/update-password.php?id=<?php echo $id; ?>" class="btn-primary">Changer le mot de passe</a>
+                                            <a href="<?php echo SITEURL; ?>../retroG/retroGame/admin/update-admin.php?id=<?php echo $id; ?>" class="btn-secondary">Modifier Admin</a>
+                                            <a href="<?php echo SITEURL; ?>../retroG/retroGame/admin/delete-admin.php?id=<?php echo $id; ?>" class="btn-danger">Supprimer Admin</a>
                                         </td>
                                     </tr>
 

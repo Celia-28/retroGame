@@ -31,7 +31,7 @@
                 }
                 else
                 {
-                    header('location:'.SITEURL.'admin/manage-admin.php');
+                    header('location:'.SITEURL.'../retroG/retroGame/admin/manage-admin.php');
                 }
             }
         ?>
@@ -89,12 +89,12 @@
         if($res==true)
         {
             $_SESSION['update'] = "div class='success'>Admin modifié</div>";
-            header('location:'.SITEURL.'admin/manage-admin.php');
+            header('location:'.SITEURL.'../retroG/retroGame/admin/manage-admin.php');
         }
         else
         {
             $_SESSION['update'] = "div class='error'>Erreur</div>";
-            header('location:'.SITEURL.'admin/manage-admin.php');
+            header('location:'.SITEURL.'../retroG/retroGame/admin/manage-admin.php');
         }
 
     }

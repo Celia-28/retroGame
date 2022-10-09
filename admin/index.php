@@ -34,7 +34,16 @@
         <div class="main-content">
             <div class="wrapper">
                 <h2 class="Categories">Categories</h2>
-                
+                <br><br>
+                <?php
+                    if(isset($_SESSION['login']))
+                    {
+                    echo $_SESSION['login'];
+                    unset($_SESSION['login']);
+                    } 
+                ?>
+                <br><br>
+
                 <div class="box-3 float-container">
                     <img src="../images/imgCat.webp" class="img-responsive img-curve">
                     <li><a href="manage-retroGaming.php">Rétro-Gaming</a></li>

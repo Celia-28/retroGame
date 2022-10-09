@@ -80,7 +80,7 @@ if(isset($_POST['submit']))
         //create a session variable to display message
         $_SESSION['add'] = "Admin Added Successfully";
         //Redirect page
-        header("location:".SITEURL.'admin/manage-admin.php');
+        header("location:".SITEURL.'../retroG/retroGame/admin/manage-admin.php');
     }
     else
     {
@@ -88,7 +88,7 @@ if(isset($_POST['submit']))
         //create a session variable to display message
         $_SESSION['add'] = "Failed to Add Admin";
         //Redirect page
-        header("location:".SITEURL.'admin/manage-admin.php');
+        header("location:".SITEURL.'../retroG/retroGame/admin/manage-admin.php');
     }
 
 }

@@ -295,3 +295,12 @@ table tr td{
     color: white;
     text-decoration: none;
 }
+
+/* CSS for login */
+.login{
+    border: 1px solid grey;
+    width: 30%;
+    margin: 10% auto;
+    padding: 2%;
+    background-color: #716f6f;
+}

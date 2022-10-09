@@ -16,12 +16,12 @@
     {
         $_SESSION['delete'] = "<div class='success'>Admin Deleted Successfully</div>";
         //Redirect to manage admin page
-        header('location:'.SITEURL.'admin/manage-admin.php');
+        header('location:'.SITEURL.'../retroG/retroGame/admin/manage-admin.php');
     }
     else
     {
         $_SESSION['delete'] ="<div class='error'>Failed to delete Admin, try again later</div>";
-        header('location:'.SITEURL.'admin/manage-admin.php');
+        header('location:'.SITEURL.'../retroG/retroGame/admin/manage-admin.php');
 
     }
 
